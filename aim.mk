@@ -33,6 +33,9 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := AIM on Shamu
 PRODUCT_MANUFACTURER := motorola
 #PRODUCT_RESTRICT_VENDOR_FILES := true
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1440
 
 $(call inherit-product, device/moto/shamu/device.mk)
 $(call inherit-product-if-exists, vendor/moto/shamu/device-vendor.mk)
